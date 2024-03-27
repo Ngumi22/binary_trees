@@ -15,7 +15,7 @@ void binary_tree_print(const binary_tree_t *tree)
 
 	if (tree->left != NULL || tree->right != NULL)
 	{
-		printf("  .--(%d)--.         .--(%d)--.\n", 
+		printf("  .--(%d)--.         .--(%d)--.\n",
 				tree->left ? tree->left->n : 0,
 				tree->right ? tree->right->n : 0);
 		printf("(%d)     (%d)     (%d)     (%d)\n",
